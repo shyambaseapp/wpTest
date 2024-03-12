@@ -1,0 +1,9 @@
+2024-02-19T05:33:55+00:00 CRITICAL Uncaught Error: Call to undefined function WordfenceLS\get_current_site() in /home/vagrant/wordpress/wordpress/wp-content/plugins/wordfence/modules/login-security/classes/controller/permissions.php:128
+Stack trace:
+#0 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(324): WordfenceLS\Controller_Permissions->_role_sync_cron()
+#1 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/vagrant/wordpress/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action()
+#3 /home/vagrant/wordpress/wordpress/wp-cron.php(191): do_action_ref_array()
+#4 {main}
+  thrown in /home/vagrant/wordpress/wordpress/wp-content/plugins/wordfence/modules/login-security/classes/controller/permissions.php on line 128
+

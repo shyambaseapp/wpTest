@@ -1,0 +1,192 @@
+2024-02-07T13:02:12+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php:250
+Stack trace:
+#0 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(105): CSF_Options->save_defaults()
+#1 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(122): CSF_Options->__construct()
+#2 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/setup.class.php(96): CSF_Options::instance()
+#3 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(324): CSF::setup()
+#4 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/vagrant/wordpress/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/vagrant/wordpress/wordpress/wp-settings.php(621): do_action()
+#7 /home/vagrant/wordpress/wordpress/wp-config.php(105): require_once('...')
+#8 /home/vagrant/wordpress/wordpress/wp-load.php(50): require_once('...')
+#9 /home/vagrant/wordpress/wordpress/wp-admin/admin.php(34): require_once('...')
+#10 /home/vagrant/wordpress/wordpress/wp-admin/index.php(10): require_once('...')
+#11 {main}
+  thrown in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php on line 250
+
+2024-02-07T13:02:23+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php:250
+Stack trace:
+#0 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(105): CSF_Options->save_defaults()
+#1 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(122): CSF_Options->__construct()
+#2 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/setup.class.php(96): CSF_Options::instance()
+#3 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(324): CSF::setup()
+#4 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/vagrant/wordpress/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/vagrant/wordpress/wordpress/wp-settings.php(621): do_action()
+#7 /home/vagrant/wordpress/wordpress/wp-config.php(105): require_once('...')
+#8 /home/vagrant/wordpress/wordpress/wp-load.php(50): require_once('...')
+#9 /home/vagrant/wordpress/wordpress/wp-blog-header.php(13): require_once('...')
+#10 /home/vagrant/wordpress/wordpress/index.php(17): require('...')
+#11 {main}
+  thrown in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php on line 250
+
+2024-02-07T13:02:43+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php:250
+Stack trace:
+#0 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(105): CSF_Options->save_defaults()
+#1 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(122): CSF_Options->__construct()
+#2 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/setup.class.php(96): CSF_Options::instance()
+#3 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(324): CSF::setup()
+#4 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/vagrant/wordpress/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/vagrant/wordpress/wordpress/wp-settings.php(621): do_action()
+#7 /home/vagrant/wordpress/wordpress/wp-config.php(105): require_once('...')
+#8 /home/vagrant/wordpress/wordpress/wp-load.php(50): require_once('...')
+#9 /home/vagrant/wordpress/wordpress/wp-admin/admin.php(34): require_once('...')
+#10 /home/vagrant/wordpress/wordpress/wp-admin/index.php(10): require_once('...')
+#11 {main}
+  thrown in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php on line 250
+
+2024-02-07T13:03:04+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php:250
+Stack trace:
+#0 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(105): CSF_Options->save_defaults()
+#1 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(122): CSF_Options->__construct()
+#2 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/setup.class.php(96): CSF_Options::instance()
+#3 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(324): CSF::setup()
+#4 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/vagrant/wordpress/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/vagrant/wordpress/wordpress/wp-settings.php(621): do_action()
+#7 /home/vagrant/wordpress/wordpress/wp-config.php(105): require_once('...')
+#8 /home/vagrant/wordpress/wordpress/wp-load.php(50): require_once('...')
+#9 /home/vagrant/wordpress/wordpress/wp-admin/admin.php(34): require_once('...')
+#10 /home/vagrant/wordpress/wordpress/wp-admin/index.php(10): require_once('...')
+#11 {main}
+  thrown in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php on line 250
+
+2024-02-07T13:04:54+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php:250
+Stack trace:
+#0 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(105): CSF_Options->save_defaults()
+#1 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(122): CSF_Options->__construct()
+#2 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/setup.class.php(96): CSF_Options::instance()
+#3 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(324): CSF::setup()
+#4 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/vagrant/wordpress/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/vagrant/wordpress/wordpress/wp-settings.php(621): do_action()
+#7 /home/vagrant/wordpress/wordpress/wp-config.php(105): require_once('...')
+#8 /home/vagrant/wordpress/wordpress/wp-load.php(50): require_once('...')
+#9 /home/vagrant/wordpress/wordpress/wp-admin/admin.php(34): require_once('...')
+#10 /home/vagrant/wordpress/wordpress/wp-admin/index.php(10): require_once('...')
+#11 {main}
+  thrown in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php on line 250
+
+2024-02-07T13:05:01+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php:250
+Stack trace:
+#0 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(105): CSF_Options->save_defaults()
+#1 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(122): CSF_Options->__construct()
+#2 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/setup.class.php(96): CSF_Options::instance()
+#3 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(324): CSF::setup()
+#4 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/vagrant/wordpress/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/vagrant/wordpress/wordpress/wp-settings.php(621): do_action()
+#7 /home/vagrant/wordpress/wordpress/wp-config.php(105): require_once('...')
+#8 /home/vagrant/wordpress/wordpress/wp-load.php(50): require_once('...')
+#9 /home/vagrant/wordpress/wordpress/wp-admin/admin.php(34): require_once('...')
+#10 /home/vagrant/wordpress/wordpress/wp-admin/index.php(10): require_once('...')
+#11 {main}
+  thrown in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php on line 250
+
+2024-02-07T13:05:30+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php:250
+Stack trace:
+#0 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(105): CSF_Options->save_defaults()
+#1 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(122): CSF_Options->__construct()
+#2 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/setup.class.php(96): CSF_Options::instance()
+#3 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(324): CSF::setup()
+#4 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/vagrant/wordpress/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/vagrant/wordpress/wordpress/wp-settings.php(621): do_action()
+#7 /home/vagrant/wordpress/wordpress/wp-config.php(105): require_once('...')
+#8 /home/vagrant/wordpress/wordpress/wp-load.php(50): require_once('...')
+#9 /home/vagrant/wordpress/wordpress/wp-admin/admin.php(34): require_once('...')
+#10 /home/vagrant/wordpress/wordpress/wp-admin/index.php(10): require_once('...')
+#11 {main}
+  thrown in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php on line 250
+
+2024-02-07T13:05:33+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php:250
+Stack trace:
+#0 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(105): CSF_Options->save_defaults()
+#1 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(122): CSF_Options->__construct()
+#2 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/setup.class.php(96): CSF_Options::instance()
+#3 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(324): CSF::setup()
+#4 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/vagrant/wordpress/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/vagrant/wordpress/wordpress/wp-settings.php(621): do_action()
+#7 /home/vagrant/wordpress/wordpress/wp-config.php(105): require_once('...')
+#8 /home/vagrant/wordpress/wordpress/wp-load.php(50): require_once('...')
+#9 /home/vagrant/wordpress/wordpress/wp-admin/admin.php(34): require_once('...')
+#10 /home/vagrant/wordpress/wordpress/wp-admin/index.php(10): require_once('...')
+#11 {main}
+  thrown in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php on line 250
+
+2024-02-07T13:05:46+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php:250
+Stack trace:
+#0 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(105): CSF_Options->save_defaults()
+#1 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(122): CSF_Options->__construct()
+#2 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/setup.class.php(96): CSF_Options::instance()
+#3 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(324): CSF::setup()
+#4 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/vagrant/wordpress/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/vagrant/wordpress/wordpress/wp-settings.php(621): do_action()
+#7 /home/vagrant/wordpress/wordpress/wp-config.php(105): require_once('...')
+#8 /home/vagrant/wordpress/wordpress/wp-load.php(50): require_once('...')
+#9 /home/vagrant/wordpress/wordpress/wp-admin/admin.php(34): require_once('...')
+#10 /home/vagrant/wordpress/wordpress/wp-admin/index.php(10): require_once('...')
+#11 {main}
+  thrown in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php on line 250
+
+2024-02-07T13:05:51+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php:250
+Stack trace:
+#0 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(105): CSF_Options->save_defaults()
+#1 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(122): CSF_Options->__construct()
+#2 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/setup.class.php(96): CSF_Options::instance()
+#3 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(324): CSF::setup()
+#4 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/vagrant/wordpress/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/vagrant/wordpress/wordpress/wp-settings.php(621): do_action()
+#7 /home/vagrant/wordpress/wordpress/wp-config.php(105): require_once('...')
+#8 /home/vagrant/wordpress/wordpress/wp-load.php(50): require_once('...')
+#9 /home/vagrant/wordpress/wordpress/wp-admin/admin.php(34): require_once('...')
+#10 /home/vagrant/wordpress/wordpress/wp-admin/index.php(10): require_once('...')
+#11 {main}
+  thrown in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php on line 250
+
+2024-02-07T13:06:13+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php:250
+Stack trace:
+#0 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(105): CSF_Options->save_defaults()
+#1 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(122): CSF_Options->__construct()
+#2 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/setup.class.php(96): CSF_Options::instance()
+#3 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(324): CSF::setup()
+#4 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/vagrant/wordpress/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/vagrant/wordpress/wordpress/wp-settings.php(621): do_action()
+#7 /home/vagrant/wordpress/wordpress/wp-config.php(105): require_once('...')
+#8 /home/vagrant/wordpress/wordpress/wp-load.php(50): require_once('...')
+#9 /home/vagrant/wordpress/wordpress/wp-admin/admin.php(34): require_once('...')
+#10 /home/vagrant/wordpress/wordpress/wp-admin/index.php(10): require_once('...')
+#11 {main}
+  thrown in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php on line 250
+
+2024-02-07T13:06:20+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php:250
+Stack trace:
+#0 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(105): CSF_Options->save_defaults()
+#1 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php(122): CSF_Options->__construct()
+#2 /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/setup.class.php(96): CSF_Options::instance()
+#3 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(324): CSF::setup()
+#4 /home/vagrant/wordpress/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/vagrant/wordpress/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/vagrant/wordpress/wordpress/wp-settings.php(621): do_action()
+#7 /home/vagrant/wordpress/wordpress/wp-config.php(105): require_once('...')
+#8 /home/vagrant/wordpress/wordpress/wp-load.php(50): require_once('...')
+#9 /home/vagrant/wordpress/wordpress/wp-admin/admin.php(34): require_once('...')
+#10 /home/vagrant/wordpress/wordpress/wp-admin/index.php(10): require_once('...')
+#11 {main}
+  thrown in /home/vagrant/wordpress/wordpress/wp-content/plugins/wpoven-plugin-switcher/includes/codestar/classes/admin-options.class.php on line 250
+
